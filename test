@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uai Tabacaria - Venda de Palheiros em Macapá</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #322D28; /* Cor inspirada no tabaco */
+            color: #F2E1C1; /* Cor clara para contraste */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4B3621; /* Tom mais forte de tabaco */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #F2E1C1;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #F2E1C1;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .portfolio img {
+            width: 250px;
+            height: 200px;
+            border-radius: 10px;
+            border: 2px solid #4B3621;
+        }
+        .contact, .social {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #4B3621;
+            padding: 10px;
+            text-align: center;
+            color: #F2E1C1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Uai Tabacaria</h1>
+        <p>Venda de Palheiros em Macapá</p>
+    </header>
+
+    <nav>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+        <a href="#social">Redes Sociais</a>
+    </nav>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Imagens do Palheiro Terra Tombada, disponíveis em breve.</p>
+        <div class="portfolio">
+            <!-- Espaço para futuras imagens do portfólio -->
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:uaitabacaria2000@gmail.com" style="color: #F2E1C1;">uaitabacaria2000@gmail.com</a></p>
+        <p>Whatsapp: <a href="https://wa.me/5534984035602" target="_blank" style="color: #F2E1C1;">34984035602</a></p>
+    </section>
+
+    <section id="social" class="social">
+        <h2>Siga-nos</h2>
+        <p>Instagram: <a href="https://instagram.com/uai_tabacaria_mcp" target="_blank" style="color: #F2E1C1;">@uai_tabacaria_mcp</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Uai Tabacaria. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
